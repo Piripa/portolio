@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+header {
+    background-color: chartreuse;
+    padding: 10px;
+
+}
+
+header h1 {
+    font-size: 100px;
+
+}
+
+nav {
+    position: absolute;
+    top: 56px;
+    right: 150px;
+}
+
+nav li {
+    display: inline;
+    border-color: black;
+    border-width: 20px;
+    border-style: solid;
+}
+
+li {
+    border-color: black;
+
+}
+
+
+
+main {
+    background-color: red;
+    width: 100%;
+}
+
+.div-principal {
+    width: 100%;
+    margin: 0 auto;
+    background-color: bisque;
+    display: block;
+}
+
+
+
+.picture-perfil {
+    display: inline-block;
+    position: block;
+    max-width: 300px;
+    margin: 10% 0 10% 80%;
+
+}
+
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+}
