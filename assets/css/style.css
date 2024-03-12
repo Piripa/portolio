@@ -1,11 +1,11 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: italic;
-    width: 1024px 920px;
+    max-width: 1024px 920px;
+    background-image: linear-gradient(to top right, #117f09, #0d6007, #084005, #042002, #000000);
 }
 
 header {
-    background-color: #ADD8E6;
     padding: 10px;
     border-color: black;
     border-width: 1px;
@@ -17,7 +17,8 @@ header {
 
 header h1 {
     font-size: 100px;
-
+    font-weight: 900;
+    color: white;
 }
 
 nav {
@@ -27,6 +28,7 @@ nav {
 }
 
 nav li {
+    color: white;
     display: inline;
     border-color: black;
     border-width: 2px;
@@ -41,7 +43,6 @@ li {
 
 
 main {
-    background-color: red;
     width: 100%;
 
 }
@@ -49,7 +50,6 @@ main {
 .div-principal {
     width: 100%;
     margin: 0 auto;
-    background-color: #87CEEB;
     display: block;
 }
 
@@ -73,17 +73,26 @@ footer {
 }
 
 .info-principal {
+    color: white;
     background-color: blue;
     position: absolute;
     margin: 50px 20px;
     font-size: 40px;
-    width: 29em;
+    width: 28em;
+
+
 }
 
+.info-principal h4 {
+    background-color: rebeccapurple;
+
+}
+
+
 .redes {
-    background-color: brown;
     display: inline-block;
     margin: 300px 0 100px 93%;
+    width: 40px;
 }
 
 .skills {
