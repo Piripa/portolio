@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    background-image: linear-gradient(to top right, #117f09, #0d6007, #084005, #042002, #000000);
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+
+header {
+    padding: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+
+
+}
+
+header h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 56px;
+    right: 150px;
+}
+
+nav li {
+    color: white;
+    display: inline;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+li {
+    border-color: black;
+}
+
+main {}
+
+.div-principal {}
+
+.picture-perfil {
+    display: inline-flex;
+    position: absolute;
+    max-width: 300px;
+    margin: 6% 0 10% 75%;
+
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.info-principal {
+    color: white;
+    background-color: blue;
+    position: absolute;
+    margin: 50px 20px;
+    font-size: 40px;
+
+}
+
+.my-projects {
+    background-color: red;
+    position: relative;
+    display: inline-flex;
+
+}
+
+.redes {
+    display: inline;
+    position: relative;
+    background-color: red;
+    margin: 300px 0 20px 70%;
+}
+
+.skills {
+    display: inline-block;
+    margin: 90px 0 36.7px;
+}

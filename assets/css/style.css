@@ -1,24 +1,17 @@
+* {}
+
 body {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    max-width: 1024px 920px;
+    min-height: 100vh;
+    min-width: 100vh;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-image: linear-gradient(to top right, #117f09, #0d6007, #084005, #042002, #000000);
+
 }
 
 header {
-    padding: 10px;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 2px;
-
-
-}
-
-header h1 {
-    font-size: 100px;
-    font-weight: 900;
-    color: white;
+    padding: 2%;
 }
 
 nav {
@@ -27,75 +20,64 @@ nav {
     right: 150px;
 }
 
-nav li {
-    color: white;
-    display: inline;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
+.info-principal {
+    position: relative;
+    top: 50px;
 }
-
-li {
-    border-color: black;
-
-}
-
-
-
-main {
-    width: 100%;
-
-}
-
-.div-principal {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-}
-
-
 
 .picture-perfil {
-    display: inline-flex;
-    position: absolute;
-    max-width: 200px;
-    margin: 6% 0 10% 77%;
-
-}
-
-
-footer {
-    text-align: center;
-    border-radius: 1px;
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-}
-
-.info-principal {
-    color: white;
-    background-color: blue;
-    position: absolute;
-    margin: 50px 20px;
-    font-size: 40px;
-    width: 28em;
-
-
-}
-
-.info-principal h4 {
-    background-color: rebeccapurple;
-
+    position: relative;
+    top: 5%;
+    left: 75%;
 }
 
 
 .redes {
+
     display: inline-block;
-    margin: 300px 0 100px 93%;
-    width: 40px;
+    position: relative;
+    left: 63%;
+    top: 40px;
 }
 
+.redes a {
+    margin: 10px;
+}
+
+
 .skills {
+
+    padding-left: 10px;
+    position: fixed;
+    bottom: 5%;
+    width: 100%;
+}
+
+.nome-skill {
+    background-color: red;
+    display: inline;
+    position: relative;
+    top: 25px;
+    font-family: "Angkor", serif;
+}
+
+.imagens-skill {
+    background-color: aqua;
     display: inline-block;
-    margin: 90px 0 36.7px;
+    margin-left: 60px;
+    width: 100px;
+    text-align: ;
+
+}
+
+.picture-perfil {
+    position: relative;
+    width: 300px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
