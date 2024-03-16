@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato - Vinicius Alessandro</title>
+    <link rel="stylesheet" href="/assets/css/reset.css"><!--Primeiro ele limpa depois fazemos as alterações-->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/engrenagemico.ico">
+
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <h1>Lets Chat. Tell me !</h1>
+            <figure class="gif">
+                <img src="/assets/img/gif engrenagem.gif">
+            </figure>
+        </div>
+    </header>
+    <main>
+        <form class="main-contact"><!--Tag de formulário-->
+            <!--Required deixa o campo obrigatório-->
+            <!--Placeholder deixa uma marca de água para o usuário saber certamente o que vai preencher ali -->
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao"
+                required><!--abre um campo que eu posso escrever-->
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required
+                placeholder="(XX)XXXX-XXXX"><!--Tag de texto(por isso não fecha)-->
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" required></textarea><!--Tag de conteúdo-->
+            <fieldset><!--Dados de devem ter uma atenção maior em uma divisão-->
+                <legend>Como perefere a via de contato?</legend>
+                <label for="radio-email"><input type="radio" id="radio-email" value="email" name="contato">Email</label>
+
+                <label for="radio-telefone"><input type="radio" id="radio-telefone" value="telefone"
+                        name="contato">Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" value="whatsapp" name="contato"
+                        checked>WhatsApp</label>
+                <!--Checked quer dizer que o aquilo será pré marcado-->
+                <!--name = contato para saber que são do mesmo grup e não ficar mais de um marcado-->
+            </fieldset>
+
+            <input type="submit" value="Enviar formulário"
+                class="enviar"><!--Meu navegador esta em português e identifica que isso será um botão-->
+        </form>
+    </main>
+    <footer><!--Rodapé-->
+        <p class="copyright">&copy; Copyright Vinicius Alessandro - 2023
+    </footer>
 </body>
+
 </html>
+<!--Mobile Input types(Site de verificar o tipos de inputs e como ele se comporta no celular)-->
